@@ -1,0 +1,4 @@
+Utilizando a documentação da Fake API JSON Placeholder, vamos criar uma página para cadastro de um dos recursos que a API oferece, à sua escolha.
+Vamos precisar de um formulário (com no mínimo dois campos) e um botão que utilize o método POST para criar uma requisição assíncrona. No corpo da requisição devem estar contidos os dados inseridos nos campos pela pessoa usuária.
+A resposta enviada pela API inclui os próprios campos enviados mais um campo id. Vamos utilizá-los para exibir uma mensagem para a pessoa usuária, por exemplo, “Recurso XYZ cadastrado com sucesso! Identificador gerado: <id>”.
+Lembre-se que, devido ao fato de estarmos usando uma Fake API, o recurso não será realmente cadastrado no servidor, mas a API responde como se tivesse sido.

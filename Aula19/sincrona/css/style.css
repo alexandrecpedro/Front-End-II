@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+* header {
+  height: 25vh;
+  background-color: burlywood;
+  color: brown;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* header h1 {
+  font-size: 2rem;
+}
+
+* nav {
+  background-color: brown;
+  color: burlywood;
+}
+
+* nav ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+* nav ul .link-especial {
+  margin-left: auto;
+}
+
+* nav ul li a {
+  text-decoration: none;
+  color: burlywood;
+  text-align: center;
+  display: block;
+  padding: 14px 16px;
+  height: 7vh;
+}
+
+* nav ul li a:hover {
+  background-color: burlywood;
+  color: brown;
+}
+
+* main {
+  height: 68vh;
+  background-color: burlywood;
+  color: brown;
+}
+
+* main .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* main .flex input[type='text'] {
+  height: 2rem;
+}
+
+* main .flex input {
+  margin: 0.7rem;
+  border: 0;
+  border-radius: 0.5rem;
+}
+
+* main .button {
+  margin: 0.7rem;
+  margin-bottom: 3rem;
+  padding: 0.8rem;
+  background-color: brown;
+  color: burlywood;
+  border: 0;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+* h2 {
+  margin-bottom: 2rem;
+}
+/*# sourceMappingURL=style.css.map */

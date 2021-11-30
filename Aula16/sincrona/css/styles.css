@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+main {
+  padding: 3rem;
+  background-color: burlywood;
+  color: brown;
+  height: 100vh;
+}
+
+main h1 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+main .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .flex .button {
+  margin: 0.7rem;
+  margin-bottom: 3rem;
+  padding: 0.8rem;
+  background-color: brown;
+  color: burlywood;
+  border: 0;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+main .flex input[type='text'] {
+  height: 2rem;
+}
+
+main .flex input {
+  margin: 0.7rem;
+  border: 0;
+  border-radius: 0.5rem;
+}
+
+main h2 {
+  margin-bottom: 2rem;
+}
+/*# sourceMappingURL=styles.css.map */

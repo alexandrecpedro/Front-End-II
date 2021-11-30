@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Mesa de animações</title>
+</head>
+
+<body>
+    <header>
+        <h1>Card do Pikachu</h1>
+    </header>
+    <main>
+        <img src="https://imagensemoldes.com.br/wp-content/uploads/2020/04/Pikachu-com-Fundo-Transparente.png">
+        <h2>Pikachu</h2>
+        <h3 id="nivel"></h3>
+        
+        <h3>Experiência (XP): </h3>
+        <div id="barraNivel">
+            <div id="nivelProgresso"></div>
+        </div>
+        <br>
+        <h3>Vida (HP): </h3>
+        <div id="barraVida">
+            <div id="vidaProgresso"></div>
+        </div>
+        <br>
+        <button onclick="upar()">+10 XP</button>
+        <button onclick="curar()">+10 HP</button>
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

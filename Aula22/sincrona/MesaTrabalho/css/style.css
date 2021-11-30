@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+}
+
+#barraNivel{
+    width: 30%;
+    border: 2px solid rgb(27,27, 27);
+    box-shadow: 3px 3px 5px darkgrey;
+    margin: 0 auto;
+}
+
+#nivelProgresso{
+    width: 0%;
+    height: 30px;
+    background-color: purple;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+#barraVida{
+    width: 30%;
+    border: 2px solid rgb(27,27, 27);
+    box-shadow: 3px 3px 5px darkgrey;
+    margin: 0 auto;
+}
+
+#vidaProgresso{
+    width: 50%;
+    height: 30px;
+    background-color: red;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+button{
+    margin-top: 1rem;
+    padding: 0.3rem;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px darkgrey;
+    cursor: pointer;
+}
