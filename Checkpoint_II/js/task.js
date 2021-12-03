@@ -10,7 +10,7 @@ const setValueOfCreateDateInput = () => {
 };
 setValueOfCreateDateInput();
 
-// pattern - RegEx
+// peguei na net
 function uuidv4() {
   return ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, (c) =>
     (
@@ -66,7 +66,7 @@ const handleCreateNewTask = (e) => {
         </div>
       </div>
     </div>
-    <div onClick="handleDelete('${id}')">✖</div>
+    <div class="deleteIcon" onClick="handleDelete('${id}')">✖</div>
   `;
 
   list.append(newTask);

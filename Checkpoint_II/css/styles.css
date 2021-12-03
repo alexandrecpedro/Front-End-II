@@ -49,12 +49,19 @@ main {
   padding: 1rem;
 }
 
-#cards div {
-  background-color: #ccc;
-  padding: 1.5rem;
-  margin: 1rem 2rem;
-  border-radius: .5rem;
-  box-shadow: 0 8px 8px -4px;
+nav {
+  margin-top: 1rem;
+}
+
+#icon {
+  width: 25px;
+  filter: brightness(0) invert(1);
+}
+
+#api-button a {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
 }
 
 a:visited {
@@ -65,12 +72,4 @@ a:visited {
 a {
   text-decoration: none;
   color: white;
-}
-
-#icon {
-  width: 25px;
-}
-
-#api-button {
-  padding-left: 20px;
 }

@@ -1,4 +1,4 @@
-let cards = document.querySelector("#cards");
+let list = document.querySelector("#api-tasks");
 
 async function tarefas() {
   let url = `https://jsonplaceholder.typicode.com/todos/`;
@@ -9,11 +9,15 @@ async function tarefas() {
 
   arrayTarefas.forEach((tarefa) => {
     if (tarefa.completed === true) {
-      cards.innerHTML += `<div><p>${tarefa.id}: <del>${tarefa.title}</del></p></div>`;
+      list.innerHTML += `<div class="task"><h2>${tarefa.id}.</h2> <del>${tarefa.title}</del></h2></div>`;
     } else {
-      cards.innerHTML += `<div><p>${tarefa.id}: <b>${tarefa.title}</b></p></div>`;
+      list.innerHTML += `<div class="task"><h2>${tarefa.id}.</h2> <p>${tarefa.title}</p></div>`;
     }
   });
 }
 
 tarefas();
+
+const backToHome = () => {
+  window.location.href = "index.html";
+};

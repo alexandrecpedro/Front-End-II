@@ -34,7 +34,6 @@
   display: flex;
 }
 
-
 .limit-date {
   padding-left: 1rem;
 }
@@ -47,4 +46,15 @@
 .task sub {
   font-weight: bold;
   opacity: 0.3;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.deleteIcon {
+  cursor: pointer;
+  color: #747474;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in-out;
 }
