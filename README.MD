@@ -43,3 +43,9 @@
 - [x] Aula 20 | Projeto TO DO - parte 1 [encontro] - aula ao vivo 25 de Novembro
 - [x] Aula 22 | Animações
 - [x] Aula 22 | Animações [encontro] - aula ao vivo 29 de Novembro
+- [x] Aula 24 | Recapitulando IV
+- [x] Aula 24 | Recapitulando IV [encontro] - aula ao vivo 03 de Dezembro
+- [x] Aula 25 | Projeto TO DO - parte 2
+- [x] Aula 25 | Projeto TO DO - parte 2 [encontro] - aula ao vivo 06 de Dezembro
+- [x] Aula 26 | Bibliotecas
+- [x] Aula 26 | Bibliotecas [encontro] - aula ao vivo 09 de Dezembro
