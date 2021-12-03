@@ -1,4 +1,4 @@
-form {  
+form {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 100px;
   gap: 2rem;
@@ -8,7 +8,7 @@ form {
   border-radius: 5px;
 }
 
-@media (max-width: 1280px){
+@media (max-width: 1280px) {
   form {
     margin-top: 0;
     grid-template-columns: 1fr;
@@ -29,7 +29,7 @@ input {
   height: 1rem;
   padding: 1rem;
   border: 1px solid #c2c2c2;
-  outline: none;  
+  outline: none;
   border-radius: 5px;
 }
 
@@ -39,7 +39,7 @@ button[type="submit"] {
   font-weight: bold;
   border: none;
   outline: none;
-  cursor: pointer;  
+  cursor: pointer;
   border-radius: 5px;
   padding: 1rem;
 }

@@ -5,8 +5,6 @@
   margin-top: 1rem;
 }
 
-
-
 .task {
   display: flex;
   align-items: center;
@@ -22,7 +20,7 @@
   text-decoration: line-through;
 }
 
-.task.done{
+.task.done {
   filter: brightness(0.9);
 }
 
@@ -38,7 +36,7 @@
 
 
 .limit-date {
-  padding-left : 1rem;
+  padding-left: 1rem;
 }
 
 .create-date {
